@@ -16,9 +16,9 @@ public class PokeEntity
     @Column(name = "name")
     private String name;
     @Column(name = "type1")
-    private TypeEnum type1;
+    private String type1;
     @Column(name = "type2")
-    private TypeEnum type2;
+    private String type2;
     private StatsEntity baseStats;
     private AbilityEntity abilities;
     @Column(name = "height")
@@ -26,7 +26,7 @@ public class PokeEntity
     @Column(name = "weight")
     private double weight;
     @Column(name = "color")
-    private ColorEnum color;
+    private String color;
     @Column(name = "form")
     private String form;
 }

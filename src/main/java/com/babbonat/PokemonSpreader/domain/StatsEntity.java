@@ -7,10 +7,10 @@ import lombok.Data;
 @Entity
 public class StatsEntity
 {
-    private short hp;
-    private short atk;
-    private short def;
-    private short spa;
-    private short spd;
-    private short spe;
+    private int hp;
+    private int atk;
+    private int def;
+    private int spa;
+    private int spd;
+    private int spe;
 }
